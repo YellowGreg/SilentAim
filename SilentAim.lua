@@ -1,10 +1,10 @@
---// Setting \\--
-local range = 35
+--// Setting
+local range = 30
  
---// Variable \\--
+--// Variable
 local player = game:GetService("Players").LocalPlayer
  
---// Script \\--
+--// Script 
 game:GetService("RunService").RenderStepped:Connect(function()
     local p = game.Players:GetPlayers()
     for i = 2, #p do local v = p[i].Character

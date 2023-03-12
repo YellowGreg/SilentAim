@@ -1,9 +1,5 @@
---// Setting
 local range = 30
- 
---// Variable
 local player = game:GetService("Players").LocalPlayer
- 
 --// Script 
 game:GetService("RunService").RenderStepped:Connect(function()
     local p = game.Players:GetPlayers()
